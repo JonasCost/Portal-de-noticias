@@ -1,0 +1,18 @@
+/* utiliti-first */
+
+.grid{
+    display: grid;  
+   
+}
+
+.grid-coluna{
+    grid-auto-flow:column;
+}
+
+.grid-coluna2{
+    grid-template-columns: 1fr 1fr;
+}
+
+.gap-16{
+    gap: 16px;
+}

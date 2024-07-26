@@ -40,16 +40,8 @@ h1, h2, h3{
     font: inherit;
 }
 
-/* utiliti-first */
-
-.grid{
-    display: grid;
-    
-   
-}
-
-.grid-coluna{
-    grid-auto-flow:column;
+img{
+    max-width: 100%;
 }
 
 .container{
@@ -58,3 +50,8 @@ h1, h2, h3{
     margin-inline: auto;
 
 }
+
+main{
+    margin-top: 40px;
+}
+
