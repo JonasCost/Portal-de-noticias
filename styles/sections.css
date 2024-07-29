@@ -7,20 +7,38 @@
     }
 
     .card{
+        border-radius: 4px;
+        overflow: hidden;
         position: relative;
         &::before{
-            border-radius: 4px;
             content: "";
             position: absolute;
             background-color: white;
             inset: 0;
             top:50%;
+            
+            /* degrade no fundo da imagem robo */
             background: linear-gradient(
             180deg,
             transparent 0%,
             #020617 100%
 
             );
+        }
+
+        figcaption{
+            position: absolute;
+            bottom: 0;
+            padding: 24px;
+
+            &:has(.text-lg){
+                padding: 12px;
+            }
+
+            h2{
+                margin-top: 8px;
+            }
+
         }
   
         }
@@ -29,8 +47,7 @@
 }
 
 
-      
-        /* background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, #020617 100%); */
+    
         
         
 
